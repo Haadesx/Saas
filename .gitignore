@@ -1,0 +1,18 @@
+# Rust specific
+target/
+Cargo.lock
+
+# Environment
+env/
+.venv/
+
+# IDE/Editor
+tags
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Runtime data
+data/
