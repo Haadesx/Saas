@@ -2,17 +2,23 @@
 target/
 Cargo.lock
 
-# Environment
-env/
-.venv/
+# IDE specific
+.idea/
+.vscode/
 
-# IDE/Editor
-tags
-*.swp
-*.swo
+# System files
+.DS_Store
 
-# Logs
+# Log files
 *.log
 
-# Runtime data
-data/
+# Environment files
+.env
+.env.local
+
+# Build artifacts
+build/
+dist/
+
+# Test results
+coverage/
